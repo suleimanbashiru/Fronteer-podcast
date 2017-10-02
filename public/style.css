@@ -61,28 +61,6 @@ body { height: 60%;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 html,
 body {
   height: 100%;
@@ -91,16 +69,15 @@ body {
 }
 
 /*
-main {
-   background-image: url("https://cdn.gomix.com/7d01a0a0-b3b0-4f9b-beb9-00f95c23d251%2FBackground.jpg");
+main {   background-image: url("https://cdn.gomix.com/7d01a0a0-b3b0-4f9b-beb9-00f95c23d251%2FBackground.jpg");
 } */
 
 
 
 
 .thumbnail {
-  padding-top:50px;
-  padding-bottom:70px;
+  height: 80px;
+  width: 80px;
   /*box-shadow: 10px 10px 5px #888888;*/
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -130,11 +107,13 @@ body {
   font-family: 'Product Sans', Arial, sans-serif;
  
 }
+
 hr {
-  border-color: #FFC636;  #F05F40;
+  border-color: #FFC636;
   border-width: 3px;
   max-width: 50px;
 }
+
 hr.light {
   border-color: white;
 }
